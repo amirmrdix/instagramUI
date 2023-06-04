@@ -1,0 +1,196 @@
+.headertop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+}
+.headertop .instagram{
+    font-family: instagram;
+    font-size: 2.2rem;
+}
+.headertop .direct{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #2d2d2d;
+}
+
+
+
+
+/*story*/
+.storyes{
+    display: flex;
+    overflow: hidden;
+}
+.userprofile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 .3rem;
+}
+.userprofile img{
+    width: 60px; height: 60px;
+    border-radius: 50%;
+    border: 2px solid crimson;
+    padding: 2px;
+}
+.userprofile span{
+    text-align: center;
+    font-size: 0.7rem;
+    padding-top: 2px;
+}
+.yourprofile img{
+    border-color: gray;
+}
+.closefriend img{
+    border-color: rgb(0, 200, 0);
+}
+hr{
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+
+
+
+.mainp{
+    overflow: scroll;
+    overflow-x: hidden;
+    height:435px ;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+/*post*/
+.postid{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+.postid .userprofile{
+    flex-direction: row;
+    cursor: pointer;
+}
+.postid .userprofile img{
+    width: 30px; height: 30px;
+    border: 1px solid crimson;
+    padding: 1px;
+    margin-right: 5px;
+}
+.more{
+    margin: 0 0 0 auto;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.postcontainer img{
+    width: 100%;
+}
+.posticon{
+    padding:0.5rem 1rem;
+    font-size: 1.2rem;
+    display: flex;
+}
+.posticon i{
+    cursor: pointer;
+    padding: 3px;
+}
+.like{
+    color: red;
+}
+.save{
+    margin: 0 0 0 auto;
+}
+.postdtail{
+    padding: 0.2rem 1rem;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+/*post2*/
+.postid2{
+    display: flex;
+    align-items: center;
+    padding: 0.4rem 1rem;
+}
+.iddetail2 img{
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    border: 1px solid crimson;
+    padding: 1px;
+    transform: translateY(10px);
+}
+.iddetail2 span{
+    font-size: 0.8rem;
+}
+.postid2 i{
+    transform: translateY(7px);
+    cursor: pointer;
+}
+.postid2 .iddetail2{
+    cursor: pointer;
+}
+.tick{
+    font-size: 0.7rem;
+    color: rgb(31, 31, 192);
+    position: relative;
+    top: 1px; left: 2px;
+}
+.postcontainer2 img{
+    width: 100%;
+    padding: 0.5rem 0;
+}
+.posticon2{
+    display: flex;
+    font-size: 1.2rem;
+    padding: 0.2rem  1rem;
+}
+.posticon2 i{
+    padding: 0 3px;
+    cursor: pointer;
+}
+.like2{
+    color: red;
+}
+.save2{
+    margin: 0 0 0 auto;
+}
+.postdetail2{
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem 0.2rem 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*tabbar*/
+footer{
+    padding: 0.5rem 0rem;
+}
+.tabbar{
+    display: flex;
+    color: #2d2d2d;
+    font-size: 1.4rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.tabbar a{
+    color: inherit;
+    text-decoration: none;
+}
+.tabbar > *{
+    cursor: pointer;
+}
+.tabbar img{
+    width: 30px; height: 30px;
+    border-radius: 50%;
+}

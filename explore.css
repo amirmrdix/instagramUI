@@ -1,0 +1,49 @@
+/*search box*/
+.exploreheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem 0; 
+}
+.searchcontainer{
+    width: 90%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.8rem;
+    gap: 0 1rem;
+    padding: 0.6rem 0;
+}
+.searchcontainer input{
+    background-color: transparent;
+    border: none; outline: none;
+    font-family: 'ios';
+}
+
+
+
+
+/*posts*/
+.explore{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 2.5px;
+}
+.explore>*{
+    cursor: pointer;
+}
+.postex:hover{
+    filter: brightness(80%);
+}
+.postex img{
+    width: 100%;
+}
+.postex:nth-child(2){
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+
+
+
